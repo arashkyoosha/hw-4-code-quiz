@@ -1,30 +1,25 @@
 // Var with array and object for questions
 var questions = [
   {
-    title: "Commonly used data types DO NOT include:",
-    choices: ["strings", "booleans", "alerts", "numbers"],
-    answer: "alerts",
+    title: "Inside which HTML element do we put the JavaScript?",
+    choices: ["<js>", "<scripting>", "<javascrip>", "<script>"],
+    answer: "<script>",
   },
   {
-    title: "The condition in an if / else statement is enclosed within ____.",
-    choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-    answer: "parentheses",
+    title: "JavaScript is a ___ -side programming language.",
+    choices: ["Client", "Server", "Both", "None"],
+    answer: "Both",
   },
   {
-    title: "Arrays in Javascript can be used to store ____.",
-    choices: [
-      "numbers and strings",
-      "other arrays",
-      "booleans",
-      "all of the above",
-    ],
-    answer: "all of the above",
+    title: "How do you find the minimum of x and y using JavaScript?",
+    choices: ["min(x,y);", "Math.min(x,y)", "Math.min(xy)", " min(xy);"],
+    answer: "Math.min(x,y)",
   },
   {
     title:
-      "String values must be enclosed within ____ when being assigned to variables.",
-    choices: ["commas", "curly brackets", "quotes", "parenthesis"],
-    answer: "quotes",
+      "Which JavaScript label catches all the values, except for the ones specified?",
+    choices: ["catch", "label", "try", "default"],
+    answer: "default",
   },
   {
     title:
@@ -203,8 +198,6 @@ function allDone() {
       allScores.push(finalScore);
       var newScore = JSON.stringify(allScores);
       localStorage.setItem("allScores", newScore);
-      // Travels to final page
-      window.location.replace("./HighScores.html");
     }
   });
 }
