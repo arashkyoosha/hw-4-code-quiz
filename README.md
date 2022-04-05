@@ -7,3 +7,6 @@ In this homework, we created a timed JS quiz which deducts point for each wrong 
 Live demo:
 
 <https://arashkyoosha.github.io/hw-4-code-quiz/>
+
+
+![screenshot](./assets/img/screenshot.png)
